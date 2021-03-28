@@ -1,5 +1,4 @@
 ﻿using System;
-using DesignPatterns.Core;
 using DesignPatterns.Core.Strategies;
 using DesignPatterns.Models;
 

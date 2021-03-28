@@ -2,21 +2,8 @@ namespace DesignPatterns.Core
 {
     public class Factory
     {
-        public static Factory Instance = null;
-        
-        private Factory()
-        {
-            
-        }
-
-        public Factory GetInstance()
-        {
-            if (Instance is null)
-            {
-                Instance = new Factory();
-            }
-
-            return Instance;
-        }
+        private static Factory _instance;
+        public static Factory Instance => _instance ??= new Factory();
+        private Factory() {}
     }
 }

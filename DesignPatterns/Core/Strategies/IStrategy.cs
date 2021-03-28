@@ -1,6 +1,6 @@
 using DesignPatterns.Models;
 
-namespace DesignPatterns.Core
+namespace DesignPatterns.Core.Strategies
 {
     public interface IStrategy
     {
